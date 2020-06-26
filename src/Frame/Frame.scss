@@ -1,0 +1,45 @@
+.frame {
+  background-color: #272823;
+  width:            100%;
+  height:           calc(100vh - 100px);
+  position:         relative;
+  box-shadow:       0 7px 8px -4px transparentize(#000, .8),
+                    0 12px 17px 2px transparentize(#000, .86),
+                    0 5px 22px 4px transparentize(#000, .88);
+
+  .gutters, .points, .rails {
+    position: absolute;
+    top:      0;
+    left:     0;
+    right:    0;
+    bottom:   0;
+  }
+
+  .gutter {
+    transition:       opacity .2s;
+    position:         absolute;
+    background-color: #fff;
+  }
+
+  .point {
+    transition:       opacity .2s;
+    position:         absolute;
+    width:            7px;
+    height:           7px;
+    border-radius:    7px;
+    background-color: rgb(199, 27, 27);
+  }
+
+  .rail {
+    position:         absolute;
+    background-color: #ffdd00;
+
+    &.horizontal-rail {
+      height: 2px;
+    }
+
+    &.vertical-rail {
+      width: 2px;
+    }
+  }
+}
