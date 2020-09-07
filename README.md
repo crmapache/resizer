@@ -7,7 +7,7 @@
 ✅ Magnetizing areas to each other and frame borders  
 ✅ Show ruler when magnetizing
  
-[Live demo](http://areas.eclipseweb.ru/).
+[Live demo](http://resizer.eclipseweb.ru/).
 
 And this is how it looks in a real project
 
